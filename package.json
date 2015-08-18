@@ -1,0 +1,40 @@
+{
+  "name": "harp-starter",
+  "version": "1.0.0",
+  "description": "A starting point for a harp static site, with support for external npm modules",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node index.js serve",
+    "build": "node index.js build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evendev/harp-starter.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "browserify",
+    "harp",
+    "harpjs",
+    "jquery",
+    "moment",
+    "underscore"
+  ],
+  "author": "Steve Jamesson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evendev/harp-starter/issues"
+  },
+  "homepage": "https://github.com/evendev/harp-starter#readme",
+  "devDependencies": {
+    "bootstrap": "^3.3.5",
+    "browserify": "^11.0.1",
+    "harp": "^0.17.0",
+    "jquery": "^2.1.4",
+    "moment": "^2.10.6",
+    "rsyncwrapper": "^0.4.3",
+    "underscore": "^1.8.3",
+    "util": "^0.10.3",
+    "yargs": "^3.19.0"
+  }
+}

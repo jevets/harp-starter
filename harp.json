@@ -1,0 +1,9 @@
+{
+  "globals": {
+    "site": {
+      "language": "en",
+
+      "name": "Harp Starter"
+    }
+  }
+}
