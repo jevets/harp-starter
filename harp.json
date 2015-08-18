@@ -2,6 +2,7 @@
   "globals": {
     "site": {
       "language": "en",
+      "githubUrl": "https://github.com/evendev/harp-starter",
 
       "name": "Harp Starter"
     }
