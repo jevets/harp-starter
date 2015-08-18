@@ -6,7 +6,7 @@
   "scripts": {
     "serve": "node index.js serve",
     "build": "npm run copy-fonts && node index.js build",
-    "copy-fonts": "cp -R node_modules/font-awesome/fonts node_modules/bootstrap/fonts public/assets/fonts"
+    "copy-fonts": "cp -R node_modules/font-awesome/fonts node_modules/bootstrap/fonts public/assets"
   },
   "repository": {
     "type": "git",
