@@ -1,20 +1,31 @@
 extends _layouts/container
 
 block prepend title
-  | Welcome - 
+  | #{ title } - 
 
 block container
+  h1 Welcome to 
+    code harp-starter
+
+  p.lead An opinionated Harp boilerplate, with improvements that fit my typical Harp workflow.
+
   :markdown
-    # Welcome to `harp-starter`
+    - [Bootstrap](http://getbootstrap.com/) and [jQuery](https://jquery.com/)
+    - [Browserify](http://browserify.org/)
+    - [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
+    - **Support for using external libraries in templates:**
+      - [Moment.js](http://momentjs.com/)
+      - [Underscore](http://underscorejs.org/)
+      - Easily add your own!
 
     ## Build
 
-    ```bash
+    ```shell
     npm run build
     ```
 
     ## Serve
 
-    ```bash
+    ```shell
     npm run serve [--port=9000]
     ```
