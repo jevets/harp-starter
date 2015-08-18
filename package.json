@@ -6,7 +6,10 @@
   "scripts": {
     "serve": "node index.js serve",
     "build": "npm run copy-fonts && node index.js build",
-    "copy-fonts": "cp -R node_modules/font-awesome/fonts node_modules/bootstrap/fonts public/assets"
+    "build-js": "browserify public/assets/js/app.js -o public/assets/js/bundle.js",
+    "watch-js": "watchify public/assets/js/app.js -o public/assets/js/bundle.js -dv",
+    "copy-fonts": "cp -R node_modules/font-awesome/fonts node_modules/bootstrap/fonts public/assets",
+    "dev": "npm run copy-fonts && npm run build-js && npm run watch-js & npm run serve"
   },
   "repository": {
     "type": "git",

@@ -4,3 +4,4 @@ node_modules
 secrets.*
 
 public/assets/fonts/*
+public/assets/js/bundle.js

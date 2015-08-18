@@ -15,8 +15,18 @@ block container
     - [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
     - **Support for using external libraries in templates:**
       - [Moment.js](http://momentjs.com/)
-      - [Underscore](http://underscorejs.org/)
+      - [Underscore.js](http://underscorejs.org/)
       - Easily add your own!
+
+    ## Local Development Server
+
+    - Copies fonts from bootstrap and font-awesome
+    - Watches `assets/js/app.js` for changes and recompiles to `assets/js/bundle.js`
+    - Serves via `harp server`
+
+    ```shell
+    npm run dev
+    ```
 
     ## Build
 
