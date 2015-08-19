@@ -30,7 +30,7 @@ One of the biggest complaints I've had about Harp is that I could never pull in 
 
 This is the main justification for this bolierplate. While I'm at it, I've included some other modules and resources that I typically use, like Bootstrap 3.x and Browserify. (They're easy enough to remove if you don't want them.)
 
-[An article by Remy Sharp](https://remysharp.com/2014/09/30/wordpress-ghost-harp-pt2#use-of-special-helpers-inside-harp) clued me into a way of wrapping Harp's `compile` and `serve` features from my own node script, allowing me to make moment.js and underscore.js (and others) available to my Harp templates. Now (during the compile!) I can iterate using underscore and format dates nicely with moment.
+[An article by Remy Sharp](https://remysharp.com/2014/09/30/wordpress-ghost-harp-pt2#use-of-special-helpers-inside-harp) clued me into a way of wrapping Harp's `compile` and `serve` features in my own node script, allowing me to make moment.js and underscore.js (and others) available to my Harp templates. Now I can iterate using underscore and format dates nicely with moment.
 
 ## Getting Started
 
@@ -49,9 +49,7 @@ This is the main justification for this bolierplate. While I'm at it, I've inclu
 
 ### 3. Start up the dev server
 
-```shell
-npm run dev
-```
+    npm run dev
 
 ## Package Scripts
 

@@ -40,6 +40,9 @@ switch (argv._[0]) {
   case 'build':
     build();
     break;
+  case 'deploy':
+    deploy();
+    break;
   default:
     util.log('No command specified.');
     break;
