@@ -70,6 +70,16 @@ Compiles the site to static files in `/www`
 
     npm run build
 
+### deploy-[target]
+
+Deploy via rsync over ssh. 
+
+    npm run deploy-dev
+
+1. Copy `/secrets-sample.json` to `secrets.json` and fill in your server(s) details.
+2. Update `/index.js` to match your server aliases.
+3. Run `npm run deploy-[alias]` to rsync over ssh to the server
+
 ## Layouts
 
 **A note on layouts:**
